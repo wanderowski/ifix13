@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    position: absolute;
+
+}
+
+.header__wrapper {
+    width: 100%;
+}
+
+.header__logo {
+    height: 100px;
+    width: 193px;
+}
+
+.header__menu {
+    width: 60px;
+    height: 30px;
+}

@@ -1,0 +1,146 @@
+.container {
+    margin: 0 auto;
+    background-color: transparent;
+    width: 1290px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.ai-start {
+    align-items: flex-start;
+}
+
+.ai-end {
+    align-items: flex-end;
+}
+
+.ai-center {
+    align-items: center;
+}
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-column-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.flex-column-end {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.jc-spaceBetween {
+    justify-content: space-between;
+}
+
+.jc-end {
+    justify-content: flex-end;
+}
+
+.jc-start {
+    justify-content: flex-start;
+}
+
+
+.section__text-72 {
+    font-size: 72px;
+    line-height: 89px;
+    font-weight: bold;
+    font-style: normal;
+    color: #010000;
+}
+
+.section__text-48 {
+    font-size: 48px;
+    line-height: 59px;
+    font-weight: 700;
+    font-style: normal;
+    color: #010000;
+}
+
+.section__text-36 {
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    font-style: normal;
+    color: #010000;
+}
+
+.section__text-24 {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+
+.link {
+    padding: 4px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.link__arrow {
+    width: 30px;
+    height: 20px;
+}
+
+.link:hover .link__arrow  {
+    filter:brightness(0) saturate(100%);
+    filter: invert(38%) sepia(73%) saturate(644%) hue-rotate(316deg) brightness(105%) contrast(87%);
+}
+
+
+.link:hover .link-blue  {
+    color: #EB5757;
+    border-bottom: 2px solid #EB5757
+}
+
+
+
+.link-blue {
+    padding: 0 2px 2px;
+    color: #2D9CDB;
+    font-size: 30px;
+    font-family: 'Neue Machina';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 29px;
+    text-decoration: none;
+    border-bottom: 2px solid #2D9CDB
+
+}
+
+
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}

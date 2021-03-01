@@ -1,0 +1,51 @@
+.about {
+    width: 100%;
+    background-color: #010000;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+}
+
+.about_wrapper {
+    width: 100%;
+}
+
+.about__inforow {
+    height: 970px;
+    width: 100%;
+}
+
+.about__text {
+    width: 47%;
+    color: #F7F7F7;
+}
+
+.about__image {
+    width: 970px;
+    position: absolute;
+}
+
+.image-right {
+    top: 0px;
+    left: 50%;
+}
+
+.image-left {
+    top: 970px;
+    right: 50%;
+}
+
+
+.about__header {
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 79px;
+}
+
+.about__par {
+    margin-bottom: 40px;
+}
