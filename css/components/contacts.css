@@ -1,0 +1,148 @@
+.contacts {
+    padding-bottom: 60px;
+}
+
+.contacts__wrapper {
+    width: 100%;
+}
+
+.contacts__info {
+    width: 100%;
+}
+
+.contacts__infocolumn {
+    width: 47%;
+}
+
+.contacts__label {
+    margin: 20px 0;
+
+}
+
+.contacts__link {
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.contacts__form {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.form__input {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 35px;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-family: "Neue Machina", serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+}
+.form__agreement{
+    margin-bottom: 30px;
+}
+
+.form__checkbox{
+    margin-right: 10px;
+}
+.form__agree {
+    font-family: 'Neue Machina', serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 9.6px;
+}
+
+.form__submit {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.contacts__icon {
+    width: 40px;
+}
+
+.contacts__map {
+    width: 100%;
+    height: 600px;
+}
+
+@media screen and (max-width: 992px) {
+    .contacts__link {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .contacts__label {
+        margin: 5px 0;
+    }
+    .form__input {
+        margin-bottom: 20px;
+        border-bottom: 1px solid #000;
+        font-size: 24px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacts__link {
+        font-size: 20px;
+    }
+    
+    .form__input {
+        margin-bottom: 10px;
+        border-bottom: 1px solid #000;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contacts__wrapper {
+        align-items: center;
+    }
+    .contacts__info {
+        padding: 20px 0;
+        flex-direction:column;
+    }
+
+    .contacts__infocolumn {
+        align-items: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 480px) {
+    .contacts__link {
+        font-size: 14px;
+    }
+    .contacts__label {
+        font-size: 16px;
+        margin: 0;
+    }
+    .form__input {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .contacts__icon {
+        width: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 325px) {
+    .contacts__link {
+        font-size: 12px;
+    }
+    
+    .form__input {
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    
+    
+}

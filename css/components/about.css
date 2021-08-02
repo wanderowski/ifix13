@@ -1,0 +1,158 @@
+.about {
+    width: 100%;
+    background-color: #010000;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+}
+
+.about_wrapper {
+    width: 100%;
+}
+
+.about__inforow {
+    height: 970px;
+    width: 100%;
+}
+
+.about__text {
+    width: 47%;
+    color: #F7F7F7;
+}
+
+.about__image {
+    width: 970px;
+    position: absolute;
+}
+
+.image-right {
+    top: 0px;
+    left: 50%;
+}
+
+.image-left {
+    top: 970px;
+    right: 50%;
+}
+
+
+.about__header {
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 79px;
+}
+
+.about__par {
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1400px) {
+    .about__inforow {
+        height: 700px;
+    }
+
+    .about__image {
+        width: 700px;
+    }
+
+    .image-left {
+        top: 700px;
+    }
+
+    .about__header {
+        font-size: 56px;
+        line-height: 65px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .about__inforow {
+        height: 600px;
+    }
+
+    .about__image {
+        width: 600px;
+    }
+
+    .image-left {
+        top: 600px;
+    }
+    .about__header {
+        font-size: 42px;
+        line-height: 52px;
+        padding-bottom: 40px;
+
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .about__inforow {
+        height: 500px;
+    }
+
+    .about__image {
+        width: 500px;
+    }
+
+    .image-left {
+        top: 500px;
+    }
+    .about__header {
+        font-size: 36px;
+        line-height: 52px;
+        padding-bottom: 40px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 50px 0;
+    }
+    .about__inforow {
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about__image {
+        display: none;
+    }
+
+    .about__header {
+        font-size: 28px;
+        line-height: 40px;
+        padding-bottom: 24px;
+    }
+
+    .about__text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about__link {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about__inforow {
+        width: 85%;
+    }
+
+    .about__header {
+        font-size: 24px;
+        padding-bottom: 18px;
+    }
+
+    .about__text {
+        text-align: justify;
+    }
+
+    .about__link {
+        justify-content: center;
+    }
+}
